@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제후의 프로필 링크</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+        *{
+            font-family: 'Oswald', sans-serif;
+        }
+        body{
+            background-color: #44398a;
+            color: white;
+        }
+        .wrap{
+            /* background-color: green; */
+            width: 300px;
+            margin: 30px auto 0 auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .profile{
+            width: 200px;
+            height: 200px;
+            border: 2px solid white;
+            border-radius: 100px;
+            background-image: url('w.png');
+            background-position: center;
+            background-size: cover;
+        }
+        .main{
+            font-size: 30px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub{
+            font-size: 20px;
+            margin-top: px;
+            margin-bottom: 30px;
+        }
+        .wrap > a {
+            font-size: 15px;
+            font-weight: bold;
+            color: black;
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            text-decoration: none;
+            box-shadow: 5px 5px 5px 1px black;
+        }
+        .wrap > a:hover {
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1>코린이</h1>
+        <p class="sub">코딩... 관심 있으신가요?</p>
+        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrerSs">인스타그램</a>
+        <a href="http://www.naver.com" target="_blank" rel="noopener noreferrerSs">네이버</a>
+        <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrerSs">페이스북</a>
+        <a href="http://www.google.com" target="_blank" rel="noopener noreferrerSs">구글</a>
+    </div>
+</body>
+</html>
